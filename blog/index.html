@@ -1,0 +1,18 @@
+---
+layout: default
+title: Blog
+---
+
+<h1>Blog</h1>
+<div class="row">
+  <div class="col-sm-6">
+    {% for post in site.posts %}
+      <div>
+          <h3>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+          <span>{{ post.date | date: "%-d. %b, %Y" }}</span>
+      </div>
+    {% endfor %}
+  </div>
+</div>
