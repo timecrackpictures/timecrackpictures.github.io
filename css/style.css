@@ -129,6 +129,6 @@ body {
 
 @media (max-width: 480px) {
   .footer {
-    height: 120px;
+    height: 100px;
   }
 }
