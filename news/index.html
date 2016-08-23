@@ -3,16 +3,25 @@ layout: default
 title: News
 ---
 
-<h1>News</h1>
-<div class="row">
-  <div class="col-sm-6">
-    {% for post in site.posts %}
-      <div>
-          <h3>
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h3>
-          <span>{{ post.date | date: "%-d. %b, %Y" }}</span>
+<div class="responsive">
+    <div class="panel panel-default transparent">
+      <div class="panel-body transparent">
+        <h1>News</h1>
+        <div class="row">
+          <div class="col-sm-6">
+            {% for post in site.posts %}
+              <div>
+                  <h3>
+                      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                  </h3>
+                  <span>{{ post.date | date: "%-d. %b, %Y" }}</span>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
       </div>
-    {% endfor %}
-  </div>
+    </div>
 </div>
+
+<!-- News stylesheet -->
+<link rel="stylesheet" href="/css/news.css"/>
