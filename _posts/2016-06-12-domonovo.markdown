@@ -6,7 +6,9 @@ categories: news
 ---
 Wir haben für [Domo Novo e.V][domo-ev-info]. einen Imagefilm erstellt, der das alte DOMO in Sindelfingen in neuem Licht erstrahlen ließ.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rLZxbCPmfho" frameborder="0" allowfullscreen></iframe>
+<div class="responsive-video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/rLZxbCPmfho" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Drehbeginn war am 12.02.2016.
 
