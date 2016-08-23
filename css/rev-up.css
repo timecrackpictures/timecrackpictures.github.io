@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    background: url(/img/background/bg_02.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.panel-body.transparent{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.panel.transparent{
+    background-color: transparent;
+    border: 1px #222;
+}
