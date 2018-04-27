@@ -4,7 +4,7 @@ title:  "Domo Novo Imagefilm"
 date:   2016-06-12 14:00:00 +0200
 categories: news
 ---
-Wir haben für [Domo Novo e.V][domo-ev-info]. einen Imagefilm erstellt, der das alte DOMO in Sindelfingen in neuem Licht erstrahlen ließ.
+Wir haben für [Domo Novo e.V][domo-ev-info]. einen Imagefilm erstellt, der das alte DOMO in Sindelfingen in neuem Licht erstrahlen lässt- so finden das zumindest die Vereinsmitglieder.
 
 <div class="responsive-video">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/rLZxbCPmfho" frameborder="0" allowfullscreen></iframe>
